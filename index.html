@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
+    <title>login</title>
+</head>
+
+<body>
+    <main>
+        <section id="login">
+
+            <div id="imagem">
+
+            </div>
+
+            <div id="form">
+                <h1>login</h1>
+                <p>seja bem-vindo(a) novamente. faça login para acessar sua conta</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+
+                        <input type="email" name="login" id="ilogin" placeholder="e-mail" required autocomplete="email" maxlength="120">
+
+                        <label for="ilogin">login</label>
+                    </div>
+
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+
+                        <input type="password" name="senha" id="isenha" placeholder="senha" required autocomplete="current-password" minlength="8" maxlength="11">
+
+                        <label for="isenha">senha</label>
+                    </div>
+
+                    <input type="submit" value="entrar">
+                    <button class="botao">esqueci a senha</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

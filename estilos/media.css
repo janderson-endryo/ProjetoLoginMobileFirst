@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* Pontos de interrupção típicos do dispositivo
+------------------------------------------------
+pequenas telas: ate 600px
+celular: de 600px ate 768px
+tablet: de 768px ate 992px
+desktop: de 992px ate 1200px
+grandes telas: acima de 1200px
+------------------------------------------------
+*/
+
+@media screen and (min-width: 768px)and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login {
+        width: 80vw;
+        height: 330px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 60%;
+    }
+
+    div#form > h1 {
+        font-size: 1.6em;
+    }
+
+    div#form > p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width:  992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 950px;
+        height: 330px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: left;
+        width: 50%;
+    }
+
+    div#form > h1 {
+        font-size: 2em;
+    }
+
+    div#form > p {
+        font-size: 1.2em;
+        margin: 10px 0px;
+    }
+    
+}
